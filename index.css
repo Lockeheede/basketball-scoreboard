@@ -1,5 +1,11 @@
+/* html {
+    max-width: 420px;
+    max-height: 420px;
+} */
+
 body {
-    margin: 0;
+    max-width: 360px;
+    margin: auto auto;
     background-color: #78350F;
 }
 
@@ -7,7 +13,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    margin-top: 100px;
 }
 
 .home-guest-txt {
@@ -21,6 +27,7 @@ body {
 }
 
 .score {
+    width: 55px;
     font-family: 'timerfont';
     color: #38BDF8;
     background-color: #1F2937;
@@ -31,7 +38,7 @@ body {
 }
 
 .increment-btn {
-    font-size: 10.9px;
+    font-size: 10px;
     padding: 1px;
     background-color: #78350F;
     color: #FEF3C7;
@@ -39,9 +46,9 @@ body {
 }
 
 .new-game {
-    font-size: 20.9px;
-    margin-top: 20px;
-    ;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
     background-color: #78350F;
     color: #FEF3C7;
     border: 1px solid #FEF3C7;
