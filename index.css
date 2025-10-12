@@ -6,6 +6,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 50vh;
 }
 
 .home-guest-txt {
@@ -43,5 +45,5 @@ body {
     background-color: #78350F;
     color: #FEF3C7;
     border: 1px solid #FEF3C7;
-    
+
 }
